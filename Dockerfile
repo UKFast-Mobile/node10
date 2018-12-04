@@ -4,5 +4,5 @@ FROM node:10-alpine
 RUN apk add --no-cache git
 
 # SSH Folder
-mkdir -p /root/.ssh
+RUN mkdir -p /root/.ssh
 VOLUME /root/.ssh
